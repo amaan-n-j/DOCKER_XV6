@@ -1,0 +1,5 @@
+#!/bin/bash
+pid=(`ps -a | grep pts | grep make | awk '{print $1}'`)
+echo "Process to Kill:$pid"
+echo "Enter the password:"
+sudo -S kill $pid

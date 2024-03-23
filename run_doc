@@ -1,0 +1,1 @@
+sudo docker run -it -v xv6_code_volume:/code xv6-imag
